@@ -63,8 +63,7 @@ const leaveHours = [6, 9, 2, 7, 3];
 for (let i = 0; i < leaveHours.length; i++) {
     if (leaveHours[i] % 2 === 0) {
         leaveHours[i] = leaveHours[i] * 2;
-    }
-    else {
+    } else {
         leaveHours[i] = leaveHours[i] * 0.5;
     }
 }
